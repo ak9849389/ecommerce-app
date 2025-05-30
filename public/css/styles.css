@@ -1,0 +1,412 @@
+body {
+    font-family: 'Inter', sans-serif;
+  }
+  
+
+   /* Transparent fixed navbar */
+.transparent-navbar {
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    width: 100%;
+    z-index: 1000;
+  }
+  
+  .navbar-nav .nav-link {
+    font-weight: 500;
+    color: #000 !important;
+  }
+ 
+  
+ 
+
+  .navbar-nav li a:hover{
+    color: #C2891A !important;
+    cursor: pointer;
+  }
+  .navbar-nav .nav-link{
+    color: #110f0f !important;
+  }
+ /* Navbar link styling with underline on hover */
+.navbar-nav .nav-link {
+    position: relative;
+    font-weight: 500;
+    padding: 0.5rem 0;
+    transition: color 0.3s ease;
+  }
+  
+  /* Underline effect */
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0; /* aligns with text */
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #0D0805;
+    transition: width 0.3s ease;
+  }
+  
+  /* On hover, underline expands */
+  .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* nav bar end  */
+
+  /* buy now button */
+  .custom-buy-btn {
+    background-color: #C2891A;
+    color: #fff;
+    font-weight: 500;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(194, 137, 26, 0.3);
+    transition: all 0.3s ease;
+    border: none;
+  }
+  
+  .custom-buy-btn:hover {
+    background-color: #a97013;
+    box-shadow: 0 6px 16px rgba(194, 137, 26, 0.5);
+    transform: translateY(-2px);
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .card {
+    border: none;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05); /* optional soft shadow */
+  }
+  .size-btn {
+    background-color: #f4f4f4;
+    border: none; /* 👈 removes border */
+    color: #333;
+    font-weight: 500;
+    font-size: 0.75rem;
+    padding: 6px 14px;
+    margin: 2px;
+    border-radius: 6px;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
+  }
+  
+  .size-btn:hover {
+    background-color: #C2891A;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(194, 137, 26, 0.4);
+    transform: translateY(-1px);
+  }
+  /* .size-btn.active-size {
+    background-color: #C2891A;
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(194, 137, 26, 0.4);
+  } */
+    
+  /* button end */
+
+  /* img cards  */
+  .collection-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+    height: 500px;
+  }
+
+  .collection-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+  }
+
+  .collection-card:hover img {
+    transform: scale(1.05);
+  }
+
+  .card-content {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: white;
+    z-index: 2;
+  }
+
+  .card-content h3 {
+    font-weight: bold;
+  }
+
+  .btn-shop {
+    border: 2px solid white;
+    background-color: transparent;
+    color: white;
+    padding: 5px 15px;
+    font-weight: 600;
+  }
+
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.3);
+    z-index: 1;
+  }
+  /* img cards end  */
+
+  /* img content  */
+  .section-wrapper {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 60px 15px;
+  }
+
+  .section-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+
+  .content-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+  }
+
+  .content-text {
+    font-size: 1.1rem;
+    color: #555;
+  }
+
+  .btn-shop {
+    padding: 10px 25px;
+    font-weight: 600;
+    border: 2px solid #5f3c05;
+    background-color: transparent;
+    transition: all 0.3s ease;
+    color: #5f3c05;
+  }
+
+  .btn-shop:hover {
+    background-color: #A97013;
+    color: white;
+  }
+  /* img content end */
+
+  /* footer */
+   footer {
+      background-color: #A97013;
+      color: white;
+      padding-top: 50px;
+    }
+
+    .footer-links a {
+      color: #fff;
+      text-decoration: none;
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+    }
+
+    .footer-bottom {
+      background-color: #8b5d0f;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 20px;
+      margin-right: 15px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #ffd78a;
+    }
+
+    .subscribe-input {
+      border: none;
+      border-radius: 0;
+      padding: 10px;
+    }
+
+    .subscribe-btn {
+      border: none;
+      background-color: white;
+      color: #A97013;
+      padding: 10px 20px;
+      font-weight: bold;
+    }
+
+    .subscribe-btn:hover {
+      background-color: #ffd78a;
+      color: black;
+    }
+
+    .logo-img {
+      max-width: 150px;
+      margin-bottom: 15px;
+    }
+
+    @media (max-width: 576px) {
+      .logo-img {
+        max-width: 120px;
+      }
+    }
+    /* tpggle */
+    .custom-toggler {
+      border: none;
+      font-size: 1.8rem;
+      color: #A97013;
+      background-color: transparent;
+    }
+    
+    .custom-toggler:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    .call-button {
+      position: fixed;
+      bottom: 78px;
+      right: 20px; /* Change to left: 20px; if needed */
+      background-color: #28a745;
+      color: #fff;
+      font-size: 24px;
+      padding: 15px;
+      border-radius: 50%;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+      z-index: 1000;
+      text-align: center;
+      text-decoration: none;
+      transition: background-color 0.3s ease;
+    }
+    
+    .call-button:hover {
+      background-color: #218838;
+    }
+    
+    /* Responsive adjustments */
+
+    .whatsapp-float {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25d366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      font-size: 24px;
+      z-index: 1000;
+      text-align: center;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      transition: background 0.3s ease;
+    
+      &:hover {
+        background-color: #1ebc57;
+        text-decoration: none;
+        color: #fff;
+      }
+    }
+    
+    .whatsapp-icon {
+      display: block;
+    }
+    /* wp end */
+
+    .section-title {
+      font-size: 2rem;
+      color: #C2891A;
+      font-weight: bold;
+    }
+    
+    .about-text {
+      font-size: 1.05rem;
+      line-height: 1.7;
+      color: #333;
+    }
+    
+    .founder {
+      font-style: italic;
+      color: #a66c12;
+    }
+    
+    #about img {
+      transition: transform 0.4s ease;
+    }
+    
+    #about img:hover {
+      transform: scale(1.02);
+    }
+    
+/* login form */
+/* From Uiverse.io by nathann09 */ 
+.form {
+  margin: auto;
+  background-color: #fff;
+  display: block;
+  padding: 1rem;
+  max-width: 350px;
+  border-radius: 0.5rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.form-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-container input, .form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-container input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.submit {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.signup-link {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.signup-link a {
+  text-decoration: underline;
+}
+/* end form */

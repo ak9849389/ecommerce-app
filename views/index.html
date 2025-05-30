@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - E-commerce</title>
+  <!-- Font Awesome (for the WhatsApp icon) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <!-- <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="/">E-Shop</a>
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/products">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="/cart">Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div class="container mt-5">
+    <h1>Welcome to E-Shop</h1>
+    <p>Browse our products and start shopping!</p>
+  </div> -->
+  <!-- nav bar -->
+  <nav class="navbar navbar-expand-lg navbar-light  transparent-navbar">
+    <div class="container">
+      <a class="navbar-brand fw-bold " href="#">
+        <img class="img-fluid" src="/images/LOGO1.png" alt="Logo" width="120" />
+      </a>
+      <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="bi bi-list" id="menu-icon"></i>
+      </button>
+      
+
+      <div
+        class="collapse navbar-collapse justify-content-center"
+        id="navbarTogglerDemo01"
+      >
+        <ul class="navbar-nav gap-4">
+          <li class="nav-item"><a class="nav-link" href="index.html">NEW IN</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">WOMEN</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="/products">BEST SELLERS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">FESTIVE EDIT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CELEBRITIES</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="about.html">ABOUT US</a></li>
+        </ul>
+      </div>
+
+      <div class="d-flex gap-3">
+        <i class="bi bi-search"></i>
+        <i class="bi bi-person"></i>
+        <i class="bi bi-bag"><a href="/cart"></a></i>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <!--============================== slider 1 ===============================-->
+  <section>
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/images/Show Now.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/Show Now.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/images/Show Now.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+       
+      </div>
+</section>
+ <!--============================= slider end ============================ -->
+  <!-- nav bar end  -->
+
+  <section>
+      <div class="container text-center p-4">
+          <h2>New Arrivals</h2>
+      </div>
+  </section>
+
+  <!-- cards started -->
+  <section class="container-fluid ">
+      <div id="product-list" class="row">
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+              <div class=" my-5">
+                  <div class="card mx-auto" style="max-width: 400px;">
+                    
+                    <!-- Image Carousel inside Card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/images/cards img/Black Bhandhej/Black Maternity Kurti 2.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Black Bhandhej/Black Maternity Kurti 3.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Black Bhandhej/Black Maternity Kurti 7.JPG" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                
+                      <!-- Carousel controls -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </button>
+                    </div>
+                
+                    <!-- Card body content -->
+                    <div class="card-body text-left">
+                      <h5 class="card-title">Black Bhandhej</h5>
+                      <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹499</p>
+                      <div class="btn-group" role="group" aria-label="Size buttons">
+                          <button type="button" class="btn size-btn">S</button>
+                          <button type="button" class="btn size-btn">M</button>
+                          <button type="button" class="btn size-btn">L</button>
+                          <button type="button" class="btn size-btn">XL</button>
+                          <button type="button" class="btn size-btn">XXL</button>
+                      </div>
+                      <p class="card-text pt-2">This stylish black maternity Kurti or Nursing Dress is designed to provide the perfect blend of comfort and elegance for expecting and nursing mothers.</p>
+                      <a href="#" class="btn custom-buy-btn">Buy Now</a>
+
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+              <div class=" my-5">
+                  <div class="card mx-auto" style="max-width: 400px;">
+                    
+                    <!-- Image Carousel inside Card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/images/cards img/Green Yog/6.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Green Yog/7.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Green Yog/8.JPG" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                
+                      <!-- Carousel controls -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </button>
+                    </div>
+                
+                    <!-- Card body content -->
+                    <div class="card-body textleft">
+                      <h5 class="card-title">Green Yog</h5>
+                      <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹499</p>
+                      <div class="btn-group" role="group" aria-label="Size buttons">
+                          <button type="button" class="btn size-btn">S</button>
+                          <button type="button" class="btn size-btn">M</button>
+                          <button type="button" class="btn size-btn">L</button>
+                          <button type="button" class="btn size-btn">XL</button>
+                          <button type="button" class="btn size-btn">XXL</button>
+                      </div>
+                      <p class="card-text pt-2">This elegant maternity night suit, designed for comfort and convenience, is perfect for expecting and new mothers. Made from soft, breathable cotton fabric,  .</p>
+                      <a href="#" class="btn custom-buy-btn">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+              <div class=" my-5">
+                  <div class="card mx-auto" style="max-width: 400px;">
+                    
+                    <!-- Image Carousel inside Card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/images/cards img/Gudda Guddi/3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Gudda Guddi/4.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Gudda Guddi/5.jpg" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                
+                      <!-- Carousel controls -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </button>
+                    </div>
+                
+                    <!-- Card body content -->
+                    <div class="card-body text-left">
+                      <h5 class="card-title">Gudda Guddi</h5>
+                      <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹499</p>
+                      <div class="btn-group" role="group" aria-label="Size buttons">
+                          <button type="button" class="btn size-btn">S</button>
+                          <button type="button" class="btn size-btn">M</button>
+                          <button type="button" class="btn size-btn">L</button>
+                          <button type="button" class="btn size-btn">XL</button>
+                          <button type="button" class="btn size-btn">XXL</button>
+                      </div>
+                      <p class="card-text">This stylish black maternity Kurti or Nursing Dress is designed to provide the perfect blend of comfort and elegance for expecting and nursing mothers.</p>
+                      <a href="#" class="btn custom-buy-btn">Buy Now</a>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+              <div class=" my-5 ">
+                  <div class="card mx-auto" style="max-width: 400px;">
+                    
+                    <!-- Image Carousel inside Card -->
+                    <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="/images/cards img/Pink Bhandhej printed/Pink Feeding Zip Kurti 3.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Pink Bhandhej printed/Pink Feeding Zip Kurti 4.JPG" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="/images/cards img/Pink Bhandhej printed/Pink Feeding Zip Kurti 5.JPG" class="d-block w-100" alt="...">
+                        </div>
+                      </div>
+                
+                      <!-- Carousel controls -->
+                      <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                      </button>
+                    </div>
+                
+                    <!-- Card body content -->
+                    <div class="card-body text-left ">
+                      <h5 class="card-title">Pink Bhandhej</h5>
+                      <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹499</p>
+                      <div class="btn-group" role="group" aria-label="Size buttons">
+                          <button type="button" class="btn size-btn">S</button>
+                          <button type="button" class="btn size-btn">M</button>
+                          <button type="button" class="btn size-btn">L</button>
+                          <button type="button" class="btn size-btn">XL</button>
+                          <button type="button" class="btn size-btn">XXL</button>
+                      </div>
+                      <p class="card-text">This elegant pink maternity kurti \ dress is designed for comfort and style, making it a perfect choice for expecting and new moms. Crafted from soft, breathable fabric,</p>
+                      <a href="#" class="btn custom-buy-btn">Buy Now</a>
+                    </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+            <div class=" my-5">
+                <div class="card mx-auto" style="max-width: 400px;">
+                  
+                  <!-- Image Carousel inside Card -->
+                  <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/images/cards img/Yellow/B (1).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/Yellow/B (2).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/Yellow/B (4).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+              
+                    <!-- Carousel controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+              
+                  <!-- Card body content -->
+                  <div class="card-body text-left">
+                    <h5 class="card-title">Yellow Bird Night Suit</h5>
+                    <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹749</p>
+                    <div class="btn-group" role="group" aria-label="Size buttons">
+                        <button type="button" class="btn size-btn">S</button>
+                        <button type="button" class="btn size-btn">M</button>
+                        <button type="button" class="btn size-btn">L</button>
+                        <button type="button" class="btn size-btn">XL</button>
+                        <button type="button" class="btn size-btn">XXL</button>
+                    </div>
+                    <p class="card-text pt-2">This stylish black maternity Kurti or Nursing Dress is designed to provide the perfect blend of comfort and elegance for expecting and nursing mothers.</p>
+                    <a href="#" class="btn custom-buy-btn">Buy Now</a>
+
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+            <div class=" my-5">
+                <div class="card mx-auto" style="max-width: 400px;">
+                  
+                  <!-- Image Carousel inside Card -->
+                  <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/images/cards img/Blue/A (2).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/Blue/A (3).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/Blue/A (4).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+              
+                    <!-- Carousel controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+              
+                  <!-- Card body content -->
+                  <div class="card-body textleft">
+                    <h5 class="card-title">Blue Bird Night Suit</h5>
+                    <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹749</p>
+                    <div class="btn-group" role="group" aria-label="Size buttons">
+                        <button type="button" class="btn size-btn">S</button>
+                        <button type="button" class="btn size-btn">M</button>
+                        <button type="button" class="btn size-btn">L</button>
+                        <button type="button" class="btn size-btn">XL</button>
+                        <button type="button" class="btn size-btn">XXL</button>
+                    </div>
+                    <p class="card-text pt-2">This elegant maternity night suit, designed for comfort and convenience, is perfect for expecting and new mothers. Made from soft, breathable cotton fabric,  .</p>
+                    <a href="#" class="btn custom-buy-btn">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+            <div class=" my-5">
+                <div class="card mx-auto" style="max-width: 400px;">
+                  
+                  <!-- Image Carousel inside Card -->
+                  <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/images/cards img/green/c (2).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/green/c (3).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/green/c (4).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+              
+                    <!-- Carousel controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+              
+                  <!-- Card body content -->
+                  <div class="card-body text-left">
+                    <h5 class="card-title">Dark green kurti Martneity</h5>
+                    <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹549</p>
+                    <div class="btn-group" role="group" aria-label="Size buttons">
+                        <button type="button" class="btn size-btn">S</button>
+                        <button type="button" class="btn size-btn">M</button>
+                        <button type="button" class="btn size-btn">L</button>
+                        <button type="button" class="btn size-btn">XL</button>
+                        <button type="button" class="btn size-btn">XXL</button>
+                    </div>
+                    <p class="card-text">This stylish black maternity Kurti or Nursing Dress is designed to provide the perfect blend of comfort and elegance for expecting and nursing mothers.</p>
+                    <a href="#" class="btn custom-buy-btn">Buy Now</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+            <div class=" my-5 ">
+                <div class="card mx-auto" style="max-width: 400px;">
+                  
+                  <!-- Image Carousel inside Card -->
+                  <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="/images/cards img/cream/h (7).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/cream/h (6).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/images/cards img/cream/h (5).jpeg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+              
+                    <!-- Carousel controls -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                    </button>
+                  </div>
+              
+                  <!-- Card body content -->
+                  <div class="card-body text-left ">
+                    <h5 class="card-title">White Flower Printed Night Suit</h5>
+                    <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹749</p>
+                    <div class="btn-group" role="group" aria-label="Size buttons">
+                        <button type="button" class="btn size-btn">S</button>
+                        <button type="button" class="btn size-btn">M</button>
+                        <button type="button" class="btn size-btn">L</button>
+                        <button type="button" class="btn size-btn">XL</button>
+                        <button type="button" class="btn size-btn">XXL</button>
+                    </div>
+                    <p class="card-text">This elegant pink maternity kurti \ dress is designed for comfort and style, making it a perfect choice for expecting and new moms. Crafted from soft, breathable fabric,</p>
+                    <a href="#" class="btn custom-buy-btn">Buy Now</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+          <div class=" my-5 ">
+              <div class="card mx-auto" style="max-width: 400px;">
+                
+                <!-- Image Carousel inside Card -->
+                <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/images/cards img/v (3).jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/cards img/v (3).jpeg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/images/cards img/v (3).jpeg" class="d-block w-100" alt="...">
+                    </div>
+                  </div>
+            
+                  <!-- Carousel controls -->
+                  <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                  </button>
+                </div>
+            
+                <!-- Card body content -->
+                <div class="card-body text-left ">
+                  <h5 class="card-title">Maroon Printed Kurti</h5>
+                  <!-- Product Price -->
+                  <p class="card-text fw-bold text-success mb-2">₹549</p>
+                  <div class="btn-group" role="group" aria-label="Size buttons">
+                      <button type="button" class="btn size-btn">S</button>
+                      <button type="button" class="btn size-btn">M</button>
+                      <button type="button" class="btn size-btn">L</button>
+                      <button type="button" class="btn size-btn">XL</button>
+                      <button type="button" class="btn size-btn">XXL</button>
+                  </div>
+                  <p class="card-text">This stylish black maternity Kurti or Nursing Dress is designed to provide the perfect blend of comfort and elegance for expecting and nursing mothers.</p>
+                  <a href="#" class="btn custom-buy-btn">Buy Now</a>
+                </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class=" my-5 ">
+            <div class="card mx-auto" style="max-width: 400px;">
+              
+              <!-- Image Carousel inside Card -->
+              <div id="cardCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/images/cards img/v (2).jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/cards img/v (2).jpeg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/cards img/v (2).jpeg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+          
+                <!-- Carousel controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#cardCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#cardCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon"></span>
+                </button>
+              </div>
+          
+              <!-- Card body content -->
+              <div class="card-body text-left ">
+                <h5 class="card-title">White Flower Printed </h5>
+                <!-- Product Price -->
+                    <p class="card-text fw-bold text-success mb-2">₹499</p>
+                <div class="btn-group" role="group" aria-label="Size buttons">
+                    <button type="button" class="btn size-btn">S</button>
+                    <button type="button" class="btn size-btn">M</button>
+                    <button type="button" class="btn size-btn">L</button>
+                    <button type="button" class="btn size-btn">XL</button>
+                    <button type="button" class="btn size-btn">XXL</button>
+                </div>
+                <p class="card-text">This stylish black maternity Kurti or Nursing Dress is designed to provide the perfect blend of comfort and elegance for expecting and nursing mothers.</p>
+                <a href="#" class="btn custom-buy-btn">Buy Now</a>
+              </div>
+            </div>
+        </div>
+    </div>
+
+      </div>
+  </section>
+  <!-- card end 1 -->
+
+ 
+
+  <section>
+    <div class="container text-center p-4">
+        <h2>Shop By Collection</h2>
+    </div>
+</section>
+
+<!-- img card  -->
+ <section class="container">
+  <div class=" py-5">
+    <div class="row g-4">
+      
+      <!-- Card 1 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="collection-card">
+          <img src="/images/cards img/Black Bhandhej/Black Maternity Kurti 2.JPG" alt="Advaya">
+          <div class="overlay"></div>
+          <div class="card-content">
+            <h3>Black Bhandhej</h3>
+            <button class="btn btn-shop">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 2 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="collection-card">
+          <img src="/images/cards img/Green Yog/5.JPG" alt="Dariya">
+          <div class="overlay"></div>
+          <div class="card-content">
+            <h3>Green Yog</h3>
+            <button class="btn btn-shop">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 3 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="collection-card">
+          <img src="/images/cards img/Gudda Guddi/5.JPG" alt="Zariya">
+          <div class="overlay"></div>
+          <div class="card-content">
+            <h3>Gudda Guddi</h3>
+            <button class="btn btn-shop">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Card 4 -->
+      <div class="col-sm-12 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+        <div class="collection-card">
+          <img src="/images/cards img/Pink Bhandhej printed/Pink Feeding Zip Kurti 3.JPG" alt="Svadhyaya">
+          <div class="overlay"></div>
+          <div class="card-content">
+            <h3>pink Bhandhej</h3>
+            <button class="btn btn-shop">SHOP NOW</button>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+ </section>
+ <!-- img card end -->
+
+ <!-- section img content  -->
+ <div class="container section-wrapper">
+  <div class="row align-items-center">
+    <!-- Left Side Content -->
+    <div class="col-md-6">
+      <h2 class="content-title">Black Bhandhej</h2>
+      <p class="content-text my-4">
+        This stylish black maternity Kurti or Nursing Dress is designed to provide the perfect blend of comfort and elegance for expecting and nursing mothers. Made from soft, breathable fabric, it features a traditional block print design, a mandarin collar with wooden buttons, and three-quarter sleeves for a sophisticated look.
+The empire waistline ensures a flattering fit while allowing ample space for a growing baby bump. Designed with concealed nursing zippers on both sides, this Feeding dress \ kurti is perfect for easy and discreet breastfeeding. Whether for casual outings, office wear, or family gatherings, this nursing feeding maternity kurti \ dress is a must-have in every mom-to-be’s wardrobe.
+      </p>
+      <button class="btn btn-shop">SHOP NOW</button>
+    </div>
+
+    <!-- Right Side Image -->
+    <div class="col-md-6">
+      <img src="/images/cards img/Black Bhandhej/Black Maternity Kurti 3.JPG" alt="Right side image" class="section-img">
+    </div>
+  </div>
+</div>
+<!-- section end img content  -->
+
+ <!--Div where the WhatsApp will be rendered-->
+<!-- WhatsApp Floating Icon -->
+<a href="https://wa.me/919571052157" class="whatsapp-float" target="_blank">
+<i class="fa fa-whatsapp whatsapp-icon"></i>
+</a>
+
+<!-- Floating Call Button -->
+<a href="tel:+919571052157" class="call-button" title="Call Now">
+<i class="fa fa-phone"></i>
+</a>
+
+<!-- footer start -->
+<footer>
+<div class="container">
+  <div class="row">
+
+    <!-- Brand Info with Logo -->
+    <div class="col-md-4 mb-4">
+      <img src="/images/White logo.png" alt="Logo" class="logo-img">
+      <p>Timeless fashion crafted with love. Explore our exclusive collection of sustainable wear.</p>
+      <div class="social-icons mt-3">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-pinterest-p"></i></a>
+      </div>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="col-md-2 mb-4 footer-links">
+      <h5>Shop</h5>
+      <a href="#">New Arrivals</a>
+      <a href="#">Best Sellers</a>
+      <a href="#">Collections</a>
+      <a href="#">Sale</a>
+    </div>
+
+    <!-- Customer Service -->
+    <div class="col-md-2 mb-4 footer-links">
+      <h5>Support</h5>
+      <a href="#">Contact Us</a>
+      <a href="#">FAQs</a>
+      <a href="#">Shipping</a>
+      <a href="#">Returns</a>
+    </div>
+
+    <!-- Newsletter -->
+    <div class="col-md-4 mb-4">
+      <h5>Stay Updated</h5>
+      <p>Subscribe to get special offers, free giveaways, and once-in-a-lifetime deals.</p>
+      <form class="d-flex">
+        <input type="email" class="form-control subscribe-input" placeholder="Your email">
+        <button class="subscribe-btn">Subscribe</button>
+      </form>
+    </div>
+
+  </div>
+</div>
+
+<!-- Bottom -->
+<div class="footer-bottom">
+  <p class="mb-0">&copy; 2025 Aarsh Creation. All rights reserved.</p>
+</div>
+</footer>
+<!-- footer end  -->
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="/js/main.js"></script>
+</body>
+</html>
